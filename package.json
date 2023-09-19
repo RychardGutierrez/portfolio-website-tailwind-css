@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-website-tailwind-css",
+  "version": "1.0.0",
+  "description": "- [X] Introduction\r  - [X] Tailwind Css\r  - [ ] How to install Tailwind\r  - [ ] Tailwind Responsive NavBar\r  - [ ] Tailwind Hamburger Menu\r  - [ ] Tailwind reponsitve positioing\r  - [ ] About me section\r  - [ ] Services section\r  - [ ] Tailwind Portalio section\r  - [ ] Talwind Contact form\r  - [ ] Footer\r  - [ ] How to scroll to a div when click an link\r  - [ ] Tailwind dark mode",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

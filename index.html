@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Tailwind Portfolio website</title>
+  </head>
+  <body class="font-nunito">
+    <!-- Introduction sections -->
+    <div class="h-1/2 bg-gradient-to-t from-indigo-200 lg:h-screen">
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-white z-10">
+        <div class="container mx-auto py-5 flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img class="w-8" src="/img/logo.png" alt="logo" />
+            <span class="text-2xl font-bold text-indigo-900">Portwind.</span>
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase"
+          >
+            <li class="cursor-pointer hover:text-gray-500">Home</li>
+            <li class="cursor-pointer hover:text-gray-500">About Me</li>
+            <li class="cursor-pointer hover:text-gray-500">Services</li>
+            <li class="cursor-pointer hover:text-gray-500">Works</li>
+            <li class="cursor-pointer hover:text-gray-500">Contact</li>
+          </ul>
+          <img
+            src="./img/moon.png"
+            class="hidden w-5 cursor-pointer md:block"
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-10">
+            <div class="change-color w-6 h-0.5 bg-black"></div>
+            <div class="change-color w-6 h-0.5 bg-black"></div>
+            <div class="change-color w-6 h-0.5 bg-black"></div>
+
+            <ul
+              id="menu"
+              class="hidden bg-indigo-900 absolute left-0 top-0 !mt-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center z-[-1]"
+            >
+              <li class="cursor-pointer hover:text-gray-500">Home</li>
+              <li class="cursor-pointer hover:text-gray-500">About Me</li>
+              <li class="cursor-pointer hover:text-gray-500">Services</li>
+              <li class="cursor-pointer hover:text-gray-500">Works</li>
+              <li class="cursor-pointer hover:text-gray-500">Contact</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- introduction -->
+      <div></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
