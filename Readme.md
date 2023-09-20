@@ -6,8 +6,8 @@
  - [X] How to install Tailwind
  - [X] Tailwind Responsive NavBar
  - [X] Tailwind Hamburger Menu
- - [ ] Tailwind reponsitve positioing
- - [ ] About me section
+ - [X] Tailwind reponsitve positioing
+ - [X] About me section
  - [ ] Services section
  - [ ] Tailwind Portalio section
  - [ ] Talwind Contact form
